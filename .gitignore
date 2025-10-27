@@ -1,0 +1,29 @@
+# --- Python ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# --- Virtual Environment ---
+venv/
+.env/
+
+# --- SQLite Database ---
+*.db
+*.sqlite3
+
+# --- IDE / Editor ---
+.vscode/
+.idea/
+*.swp
+.DS_Store
+
+# --- Logs & temp files ---
+*.log
+*.tmp
+*.bak
+
+# --- Node / React (if front-end is included) ---
+node_modules/
+build/
+dist/
