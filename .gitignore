@@ -23,7 +23,15 @@ venv/
 *.tmp
 *.bak
 
-# --- Node / React (if front-end is included) ---
+# --- Node / React ---
 node_modules/
 build/
 dist/
+
+# --- DO NOT IGNORE FRONTEND SRC/PUBLIC ---
+# (keep these folders in git)
+!frontend/
+!frontend/src/
+!frontend/public/
+!frontend/package.json
+!frontend/package-lock.json
